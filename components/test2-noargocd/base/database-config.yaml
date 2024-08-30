@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test2-noargocd-database-config
+data:
+  VECTORDB_HOST: "test2-noargocd-database"
+  VECTORDB_PORT: ""
